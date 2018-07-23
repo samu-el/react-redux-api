@@ -1,11 +1,15 @@
 {
-  "name": "Client",
-  "base": "User",
+  "name": "Course",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "title": {
+      "type": "string"
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
